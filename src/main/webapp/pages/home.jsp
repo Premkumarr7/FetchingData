@@ -7,10 +7,21 @@
 <title>Insert title here</title>
 </head>
 <body>
+		<h3>Add Student: </h3>
 		<form action="addStudent">
-			number sid : <input type="text" name="sid"><br>
-			number sname : <input type="text" name="sname"><br>
-			number tech : <input type="text" name="tech"><br>
+			Number sid : <input type="text" name="sid"><br>
+			Number sname : <input type="text" name="sname"><br>
+			Number tech : <input type="text" name="tech"><br>
+			<input type="submit"><br>
+		</form>
+		<h3>Get Student: </h3>
+		<form action="getStduent">
+			Number sid : <input type="text" name="sid"><br>
+			<input type="submit"><br>
+		</form>
+		<h3>Delete Student: </h3>
+		<form action="deleteStduent">
+			Number sid : <input type="text" name="sid"><br>
 			<input type="submit"><br>
 		</form>
 </body>

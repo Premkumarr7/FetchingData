@@ -2,8 +2,13 @@ package com.example.demo;
 
 import org.springframework.stereotype.Controller;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
 @Controller
+@Entity
 public class Student {
+	@Id
 	private int sid;
 	private String sname;
 	private String tech;

@@ -7,9 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-		<h3>Hi ${obj.sname} ! </h3>
-		<h2>Your Id : ${obj.sid } </h2>
+		<h2>Welcome ${obj.sname}</h3>
+		<h3>Id: ${obj.sid}</h3>
 		${obj}
+		
 		
 </body>
 </html>
